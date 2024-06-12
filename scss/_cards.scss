@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+#none{
+    display: none;
+}
+#nones{
+    display: none;
+}
+.cards{
+    width: 90%;
+    height: 1430px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto ;
+    grid-gap: 10px;
+    margin-top: 7cm;
+    .cards-card{
+        background-color:#3B3B3B;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+     gap: 20px;
+        h2{
+            //styleName: H5 - Work Sans;
+font-family: Work Sans;
+font-size: 22px;
+font-weight: 600;
+line-height: 30.8px;
+text-align: left;
+color: #FFFFFF;
+        }
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+        .price{
+            width: 90%;
+            height: 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+            .price-text{
+                width: 100%;
+                height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h3{
+font-family: Space Mono;
+font-size: 12px;
+font-weight: 400;
+line-height: 13.2px;
+text-align: left;
+color: #858584;
+    }
+    p{
+        //styleName: Caption - Space Mono;
+font-family: Space Mono;
+font-size: 12px;
+font-weight: 400;
+line-height: 13.2px;
+text-align: left;
+color: #FFFFFF;
+    }
+            }
+        }
+    }
+}
+
+@media (min-width:576px) {
+    #none{
+        display: block;
+    }
+    #nones{
+        display: none;
+    }
+    .cards{
+        width: 90%;
+        height: 1430px;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+        margin-top: 3cm;
+        .cards-card{
+            background-color:#3B3B3B;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+         gap: 20px;
+         .card-images{
+            width: 100%;
+            height: 60%;
+           border-radius: 20px 20px 0px 0px;
+         }
+            h2{
+                //styleName: H5 - Work Sans;
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 30.8px;
+    text-align: left;
+    color: #FFFFFF;
+            }
+            img{
+                width: 100%;
+                object-fit: cover;
+            }
+            .price{
+                width: 90%;
+                height: 40px;
+                display: flex;
+                flex-direction: column;
+                gap: 7px;
+                .price-text{
+                    width: 100%;
+                    height: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h3{
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 13.2px;
+    text-align: left;
+    color: #858584;
+        }
+        p{
+            //styleName: Caption - Space Mono;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 13.2px;
+    text-align: left;
+    color: #FFFFFF;
+        }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:1200px) {
+    #none{
+        display: flex;
+        gap: 30px;
+    }
+    #nones{
+        display: flex;
+        gap: 30px;
+        
+    }
+    .cards{
+        width: 90%;
+        height: 1430px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 30px;
+        margin-top: 3cm;
+        .cards-card{
+            background-color:#3B3B3B;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+         gap: 20px;
+         .card-images{
+            width: 100%;
+            height: 60%;
+           border-radius: 20px 20px 0px 0px;
+         }
+            h2{
+                //styleName: H5 - Work Sans;
+    font-family: Work Sans;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 30.8px;
+    text-align: left;
+    color: #FFFFFF;
+            }
+            img{
+                width: 100%;
+                object-fit: cover;
+            }
+            .price{
+                width: 90%;
+                height: 40px;
+                display: flex;
+                flex-direction: column;
+                gap: 17px;
+                .price-text{
+                    width: 100%;
+                    height: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h3{
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 13.2px;
+    text-align: left;
+    color: #858584;
+        }
+        p{
+            //styleName: Caption - Space Mono;
+    font-family: Space Mono;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 13.2px;
+    text-align: left;
+    color: #FFFFFF;
+        }
+                }
+            }
+        }
+    }
+}
